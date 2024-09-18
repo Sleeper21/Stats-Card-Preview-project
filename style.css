@@ -1,0 +1,25 @@
+:root{
+    /* Colors */
+
+    --clr-background: hsl(233, 46%, 7%);
+    --clr-primary: hsl(246, 38%, 16%);
+    --clr-secondary:hsl(279, 65%, 61%);
+    --clr-font-main: hsl(0, 0%, 100%);
+    --clr-font-main-stats: hsla(0, 0%, 100%, 0.6);
+    --clr-font-p: hsla(0, 0%, 100%, 0.75);
+
+    /* - Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+       - Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6) */
+
+    /* Fonts */
+
+    --ff-primary: "Inter", sans-serif;
+    --ff-secondary: "Lexend Deca", sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    background-color: var(--clr-background);
+}
