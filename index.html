@@ -18,6 +18,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   
@@ -26,28 +31,34 @@
 
   <div class="card-container">
     <div class="card-left">
-        <h1>Get insights that help your business grow.</h1>
+      <div class="card-titles">
+        <h1>Get <span class="span-title">insights</span> that help your business grow.</h1>
 
         <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.</p>
-          
+      </div>
           <div class="features">
-            10k+ companies
-            314 templates
-            12m+ queries
-          </div>
+            <h1>10k+</h1>
+              <h1>314</h1> 
+              <h1>12M+</h1>
+              <p>companies</p>
+              <p>templates</p>
+              <p>queries</p>
+              
+            </div>
+              
 
-    </div>
-    <picture>
-      <img src="images/image-header-desktop.jpg" alt="#">
+      </div>
+      
+      
+      <picture class="card-right">
+        <!-- Mobile Image -->
+        <source media="(max-width: 768px)" srcset= "images/image-header-mobile.jpg" alt="#">
+        <!-- Desktop Image -->
+        <img aria-hidden="true" loading="lazy" decoding="async" src="images/image-header-desktop.jpg" alt="#">
     </picture>
 
     
-  </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Pedro Cruz</a>.
   </div>
 </body>
 </html>
